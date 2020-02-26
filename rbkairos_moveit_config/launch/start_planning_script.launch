@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="start_planning_script_node" pkg="rbkairos_moveit_config" type="planning_script.py">
+        <remap from="/joint_states" to="/robot/joint_states" />
+    </node>
+</launch>
